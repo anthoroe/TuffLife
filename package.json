@@ -1,0 +1,26 @@
+{
+  "name": "TuffLife",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.4.3",
+    "jade": ">= 0.0.1",
+    "vows": "~0.5.11",
+    "browserify": "~1.4.4",
+    "seq": "~0.3.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.4.10"
+  },
+  "author": "Wojtek Augustynski <waugustynski@gmail.com>",
+  "description": "a drug dealin' and wheelin' simple mmo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wojohowitz/TuffLife.git"
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "vows"
+  }
+}
